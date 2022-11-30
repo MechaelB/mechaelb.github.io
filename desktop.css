@@ -1,0 +1,179 @@
+@media only screen and (min-width:1200px){
+
+    .container {
+        position: relative;
+        width: auto;
+        height: max-content;
+        padding-left: 110px;
+        padding-right: 110px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    /*Catalog*/
+    .catalog-card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0px;
+        width: 45%;
+        height: 374px;
+        background-color: rgb(233, 233, 233);
+    }
+    .card-title{
+        position: relative;
+        width: 100%;
+    }
+     .cat_slim{
+        position: absolute;
+        width: 70px;
+        height: 97px;
+
+        left: 67px;
+        top: 41px;
+    }
+    .cat_back{
+        position: absolute;
+        width: 134px;
+        height: 56px;
+
+        left: 33px;
+        top: 67px;
+    }
+    .card-title__background{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        left: 52px;
+        top: 47px;
+    } 
+    .card-title__text{
+        position:absolute;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        left: 214px;
+        top: 77px;
+    }
+    .card-title__text{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 36px;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+    .catalog-card__text{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .catalog-card__text{
+        position:absolute;
+/*         
+        left: 52px; */
+        top: 186px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 52px;
+        margin-right: 61px;
+
+        
+    }
+    .catalog__line{
+        display: none;
+    }
+    .card-info{
+        position: absolute;
+        bottom: 15%;
+        left: 10%;
+    }
+    .card-info__link{
+        
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+
+    /*HOW IT WORS*/
+    .function__container
+    {
+        position: relative;
+    }
+    .function__title{
+        position: absolute;
+        left: 110px;
+        top: 71px;
+        width: 375px;
+        height: 60px;
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 60px;
+
+        text-align: center;
+        margin: 0%;
+    }
+
+    .food-list{
+        padding: 0%;
+        position: absolute;
+        display: flex;
+        top: 163px;
+        width: auto;
+        margin: 0%;
+    }
+    .food-list__item{
+        position: relative;
+        display: inline;
+        width: 230px;
+        height: 280px;
+    }
+    .food-list__img{
+        position: absolute;
+        top: 40px;
+        width: 80px;
+        height: 80px;
+    }
+    .food-list__text{
+        position: absolute;
+        top: 151px;
+        
+        margin: 0%;
+    }
+
+    .counter_p{
+        position: absolute;
+        width: 112px;
+        top: 0px;
+        right: 0px;
+
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 280px;
+        line-height: 280px;
+
+        text-align: center;
+
+        color: #e2e2e2;
+        
+        margin: 0%;
+    }
+    .line{
+        display: inline;
+        width: 150px;
+    }
+}
