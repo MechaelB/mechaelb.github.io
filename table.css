@@ -163,10 +163,10 @@
     }
     .line{
         display: inline;
-        width: 150px;
+        width: auto;
     }
-    .line_2{
+    /*.line_2{
         display: none;
-    }
+    }*/
 
 }
