@@ -126,7 +126,7 @@
     .food-list__item{
         position: relative;
         display: inline-block;
-        width: 100%;
+        width: auto;
         height: 60px;
     }
     .food-list__img{
